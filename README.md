@@ -65,34 +65,53 @@ The framework consists of four main phases:
 
 ## 📈 Results
 
-### Semantic Trajectories
-Smooth semantic evolution observed for major concepts such as technology, elections, markets, and war, aligned with real-world events.
+### 🧠 Semantic Trajectories
+Smooth semantic evolution observed for major concepts such as technology, elections, markets, sports, privacy, and war, aligned with real-world events.
 
-![Semantic Trajectories](results/semantic_trajectories.png)
-
----
-
-### Classification Performance
-Voting ensemble achieves **90.40% accuracy**, with stable performance across categories.
-
-![Classification Accuracy](results/classification_results.png)
-
----
-
-### Semantic Forecasting
-Stable 12-week semantic forecasts with strong seasonality for political and market-related concepts.
-
-![Semantic Forecasting](results/forecasting_results.png)
+![Technology Trajectory](trajectory_technology.png)  
+![Election Trajectory](trajectory_election.png)  
+![Market Trajectory](trajectory_market.png)  
+![Politics Trajectory](trajectory_politics.png)  
+![Sports Trajectory](trajectory_sports.png)  
+![Privacy Trajectory](trajectory_privacy.png)  
+![War Trajectory](trajectory_war.png)
 
 ---
 
-### Causal Influence Across Sources
-VAR–Granger analysis reveals directional influence patterns such as:
-- News → Policy
-- Research → News
-- Social Media ↔ News
+### 📊 Category-Level Trajectory Analysis
+Comparison and dominance of semantic categories over time.
 
-![Causal Influence](results/causal_influence.png)
+![Category Distribution Trajectory](category_distribution_trajectory.png)  
+![Individual Category Trajectories](individual_category_trajectories.png)  
+![Category Dominance Heatmap](category_dominance_heatmap.png)  
+![Category Comparison](category_comparison.png)
+
+---
+
+### 🎯 Classification Performance
+Voting ensemble achieves **90.40% accuracy**, showing stable and consistent performance across categories.
+
+![Category Comparison](category_comparison.png)
+
+---
+
+### 🔮 Semantic Forecasting
+Semantic trajectory trends exhibit smooth temporal evolution, indicating stable patterns across multiple domains.
+
+![Economy Forecast](trajectory_economy.png)  
+![Market Forecast](trajectory_market.png)
+
+---
+
+### 🔗 Causal Influence Across Sources
+VAR–Granger causality analysis reveals directional narrative influence patterns across information sources.
+
+- News → Policy  
+- Research → News  
+- Social Media ↔ News  
+
+![Causal Graph](causal_graph.png)
+
 
 ---
 
